@@ -2,9 +2,93 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>我的网站</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>彭呈定 - 个人简历</title>
+    <style>
+        /* 整个页面的基础样式 */
+        body {
+            background-color: #f0f2f5;       /* 页面背景：浅灰色 */
+            font-family: "Microsoft YaHei", sans-serif;  /* 字体 */
+            line-height: 1.8;                /* 行高，让文字不挤 */
+            color: #333;                     /* 正文文字颜色 */
+            margin: 0;
+            padding: 20px;
+        }
+        /* 简历内容的白色卡片容器 */
+        .container {
+            max-width: 760px;                /* 最大宽度 */
+            margin: 0 auto;                  /* 水平居中 */
+            background-color: #fff;          /* 卡片背景：白色 */
+            padding: 40px;                   /* 内边距 */
+            border-radius: 10px;             /* 圆角 */
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);  /* 轻微阴影 */
+        }
+        h1 {
+            text-align: center;              /* 姓名大标题居中 */
+            color: #2c3e50;
+        }
+        h2 {
+            color: #2980b9;                  /* 小标题：蓝色 */
+            border-bottom: 2px solid #eee;   /* 小标题下的分隔线 */
+            padding-bottom: 6px;
+        }
+        li {
+            margin-bottom: 6px;              /* 每条列表之间留点间距 */
+        }
+        a {
+            color: #2980b9;                  /* 链接颜色 */
+        }
+    </style>
 </head>
 <body>
-    <h1>你好，这是我的网站</h1>
+
+    <div class="container">
+
+        <h1>个人简历</h1>
+
+        <h2>基本信息</h2>
+        <ul>
+            <li>姓名：彭呈定</li>
+            <li>邮箱：<a href="mailto:3492860156pcd@gmail.com">3492860156pcd@gmail.com</a></li>
+            <li>电话：17642075680</li>
+            <li>院校：沈阳理工大学 信息科学与工程学院 网络工程专业</li>
+        </ul>
+
+        <h2>教育背景</h2>
+        <p>
+            沈阳理工大学 信息科学与工程学院 网络工程专业 本科在读，主修计算机网络、
+            Python程序设计、C语言、Web前端、Java、数据结构等课程。掌握 Git 版本管理，
+            熟悉 VS Code、PyCharm 开发环境。
+        </p>
+
+        <h2>项目经历</h2>
+
+        <p><strong>微网储能电力调度优化 | 数学建模国赛 C 题</strong><br>
+            基于混合整数线性规划模型，使用 Python + PuLP 构建微网储能与购电优化模型。
+            以 10 分钟为时间粒度，考虑储能容量、充放电功率及效率约束，最小化外网购电总成本。
+            针对光伏出力预测不确定性，采用 MPC 滚动优化策略，完成数据清洗、求解计算、
+            结果可视化与敏感性分析。
+        </p>
+
+        <p><strong>生日星空图查询网页 | Web 课程设计</strong><br>
+            基于 HTML、CSS、JavaScript 开发星空查询网页，可输入生日日期，展示对应星空背景图案。
+            实现页面布局美化、动态星空渲染、日期交互逻辑，掌握前端页面搭建与网页动态效果开发。
+        </p>
+
+        <h2>技能清单</h2>
+        <ul>
+            <li>编程语言：Python、C语言</li>
+            <li>工具：Git、VS Code、Wireshark、Anaconda、Office</li>
+            <li>专业知识：计算机网络、数据结构、Web前端设计、Java、Python程序设计</li>
+        </ul>
+
+        <h2>自我评价</h2>
+        <p>
+            学习态度踏实，具备良好的逻辑思维与动手实验能力；善于查阅资料解决技术问题，
+            有团队协作意识。
+        </p>
+
+    </div>
+
 </body>
 </html>
